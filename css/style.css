@@ -89,11 +89,22 @@ COMMON
 
 .team-info {
     float: left;
-    margin: 10px;
+    margin: 8px;
 }
 
 .name {
     font-size: 15px;
     color: white;
     font-weight: bold;
+}
+
+.role {
+    color: white;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.mail {
+    color: #64c8f2;
+    font-size: 12px;
 }

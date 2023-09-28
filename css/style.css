@@ -16,13 +16,12 @@ FONT AND STYLE
 */
 header {
     text-align: center;
-    max-width: 1200px;
-    margin: auto;
     padding: 50px;
 }
 
 body p {
     font-family: 'Fredoka regular', sans-serif;
+    font-size: 15px;
 }
 
 /*
@@ -35,10 +34,44 @@ h1 {
     color: #e53170;
     font-weight: bolder;
     font-family: 'Fredoka', sans-serif;
+    font-size: 40px;
 }
+
+header>p {}
 
 /*
 -----------
 MAIN
 -----------
 */
+
+.team>.col {
+    height: 100px;
+    width: calc(100%/3);
+    background-color: black;
+    border: 2px solid aqua;
+    float: left;
+
+
+}
+
+
+
+
+
+/*
+-----------
+COMMON
+-----------
+*/
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}

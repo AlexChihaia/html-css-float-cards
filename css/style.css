@@ -77,12 +77,12 @@ COMMON
     clear: both;
 }
 
-.team-photo {
+.foto {
     float: left;
     width: 100%;
 }
 
 .team-info {
-    width: calc(100% - 400px);
+    width: calc(100% - 100px);
     float: left;
 }

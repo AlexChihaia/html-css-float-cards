@@ -45,16 +45,6 @@ MAIN
 -----------
 */
 
-.team>.col {
-    height: 100px;
-    width: calc(100%/3);
-    background-color: black;
-    border: 2px solid aqua;
-    float: left;
-
-
-}
-
 
 
 
@@ -64,14 +54,35 @@ MAIN
 COMMON
 -----------
 */
+.team>.col {
+
+    width: calc(100% / 3 - 20px);
+    background-color: white;
+    border: 2px solid aqua;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+}
+
 
 .container {
     max-width: 1200px;
     margin: auto;
+
 }
 
 .clearfix::after {
     display: block;
     content: '';
     clear: both;
+}
+
+.team-photo {
+    float: left;
+    width: 100%;
+}
+
+.team-info {
+    width: calc(100% - 400px);
+    float: left;
 }

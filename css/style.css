@@ -60,9 +60,6 @@ COMMON
     margin: 10px;
     box-shadow: 4px 4px 4px 4px #c4c4c3;
     font-family: 'Fredoka', sans-serif;
-
-
-
 }
 
 
@@ -81,8 +78,7 @@ COMMON
 
 .foto {
     float: left;
-    width: 80px;
-    height: 80px;
+    width: calc(100% / 3);
 }
 
 .team-info {
@@ -94,12 +90,15 @@ COMMON
     font-size: 15px;
     color: white;
     font-weight: bold;
+    padding-top: 3px;
 }
 
 .role {
     color: white;
     font-size: 12px;
     margin-top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .mail {

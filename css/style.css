@@ -105,4 +105,5 @@ COMMON
 .mail {
     color: #64c8f2;
     font-size: 12px;
+    text-decoration: none;
 }
